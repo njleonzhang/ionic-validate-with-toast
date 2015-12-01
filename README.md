@@ -2,20 +2,20 @@
 A pure angular validate specially for mobile app/website without jQuery dependency. 
 
 
-1. Introduce.
+##Introduce.
 
 This is a pure angular validate for mobile app/website. It is not dependent to jQuery.
 
 [view Demo]()
 
-2. Function
+##Function
 
 1) Show special style to show if the input is valid or not when user input.
 
 2) When user submit the form, focus to the first invalid input and show a toast.
     Content in toast can be customized.
 
-3. Usage. (take a ionic project as example)
+##Usage. (take a ionic project as example)
 
 1) link the angularValidateWithToast.js and ionic-toast.bundle.min.js in to your project in index.html
 
