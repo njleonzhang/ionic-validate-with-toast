@@ -10,7 +10,7 @@ The example in sample folder can work too.
 
 ##Function
 
-1) Show special style to show if the input is valid or not when user input.
+1) Show special style to show if the input is valid or not when user input in time.
 
 2) When user submit the form, focus to the first invalid input and show a toast.
     Content in toast can be customized.
