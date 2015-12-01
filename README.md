@@ -5,6 +5,7 @@ A pure angular validate specially for mobile app/website without jQuery dependen
 ##Introduce.
 
 [view Demo]()
+The Demo is not ready, the example in sample folder can work.
 
 ##Function
 
