@@ -1,0 +1,5 @@
+/* Empty. Add your own CSS if you like */
+
+label.has-error {
+  border-right: 3px solid red !important;
+}
