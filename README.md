@@ -18,21 +18,27 @@ The Demo is not ready, the example in sample folder can work.
 
 1) link the angularValidateWithToast.js and ionic-toast.bundle.min.js in to your project in index.html
 
+```html
     <script src="js/angularValidateWithToast.js"></script>
     <script src="js/ionic-toast.bundle.min.js"></script>
+```
 
 ionic-toast.bundle.min.js is a toast module, for detail, check https://github.com/rajeshwarpatlolla/ionic-toast
 You can use your own toast module.
 
 2) Inject the two module to your project in app.js
 
+```javascript
 angular.module('starter', ['ionic', 'angularValidateWithToast', 'ionic-toast'])
+```
 
 3) Define the css to show the error label style in style.css
 
+```css
 label.has-error {
   border-right: 3px solid red !important;
 }
+```
 
 4) Add attribute 'bsy-form-validate' to your input, add check-form to the submit button
 ```html
