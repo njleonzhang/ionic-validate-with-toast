@@ -4,8 +4,6 @@ A pure angular validate specially for mobile app/website without jQuery dependen
 
 ##Introduce.
 
-This is a pure angular validate for mobile app/website. It is not dependent to jQuery.
-
 [view Demo]()
 
 ##Function
