@@ -25,6 +25,7 @@ The example in sample folder can work too.
 ```
 
 ionic-toast.bundle.min.js is a toast module, for detail, check https://github.com/rajeshwarpatlolla/ionic-toast
+
 You can use your own toast module.
 
 2) Inject the two module to your project in app.js
