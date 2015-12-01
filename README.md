@@ -36,7 +36,6 @@ label.has-error {
 4) Add attribute 'bsy-form-validate' to your input, add check-form to the submit button
 ```html
 <form novalidate>
-<div class="list marginTop40">
    <label class="item item-input">
        <span class="input-label">username</span>
        <input type="text" ng-model="test.username" bsy-form-validate="userNameErrorTips"
