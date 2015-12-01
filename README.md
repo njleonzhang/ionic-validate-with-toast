@@ -42,7 +42,7 @@ label.has-error {
 }
 ```
 
-4) Add attribute 'bsy-form-validate' to your input, add check-form to the submit button
+4) Add attribute `bsy-form-validate` to your input, add `check-form` to the submit button
 ```html
 <form novalidate>
    <label class="item item-input">
