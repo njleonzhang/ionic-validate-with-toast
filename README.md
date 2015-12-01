@@ -56,7 +56,7 @@ label.has-error {
 ```
 
 `ng-minlength` is used to set min length, `ng-maxlength` is used to set max length,
-`ng-pattern` set the pattern, `required`, for detail check [angularJS input](https://docs.angularjs.org/api/ng/directive/input/)
+`ng-pattern` set the pattern, `required` means the field is required, for detail check [angularJS input](https://docs.angularjs.org/api/ng/directive/input/)
 
 5) In controller, define the userNameErrorTips for customized error tips.
 
