@@ -1,5 +1,5 @@
 # ionic-validate-with-toast
-A pure angular validate specially for mobile app/website without jQuery dependency. 
+A pure angular validate specially for mobile app/website without jQuery dependency.
 
 
 ##Introduce.
@@ -17,7 +17,10 @@ The example in sample folder can work too.
 
 ##Usage. (take a ionic project as example)
 
-1) link the ionicValidateWithToast.js and ionic-toast.bundle.min.js in to your project in index.html
+1. install the library
+`bower install ionic-validate-with-toast --save`
+
+2. link the ionicValidateWithToast.js and ionic-toast.bundle.min.js in to your project in index.html
 
 ```html
     <script src="js/ionicValidateWithToast.js"></script>
@@ -71,4 +74,3 @@ label.has-error {
     }
   }
 ```
-

@@ -1,5 +1,8 @@
 {
   "name": "ionic-validate-with-toast",
   "author": "njleonzhang <scream3616@sina.com>",
-  "main": "dist/ionicValidateWithToast.bundle.min.js"
+  "main": "dist/ionicValidateWithToast.bundle.min.js",
+  "dependencies": {
+    "ionic-toast": "0.4.1"
+  }
 }
