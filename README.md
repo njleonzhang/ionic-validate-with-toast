@@ -17,10 +17,10 @@ The example in sample folder can work too.
 
 ##Usage. (take a ionic project as example)
 
-1) link the angularValidateWithToast.js and ionic-toast.bundle.min.js in to your project in index.html
+1) link the ionicValidateWithToast.js and ionic-toast.bundle.min.js in to your project in index.html
 
 ```html
-    <script src="js/angularValidateWithToast.js"></script>
+    <script src="js/ionicValidateWithToast.js"></script>
     <script src="js/ionic-toast.bundle.min.js"></script>
 ```
 
@@ -31,7 +31,7 @@ You can use your own toast module.
 2) Inject the two module to your project in app.js
 
 ```javascript
-angular.module('starter', ['ionic', 'angularValidateWithToast', 'ionic-toast'])
+angular.module('starter', ['ionic', 'ionicValidateWithToast', 'ionic-toast'])
 ```
 
 3) Define the css to show the error label style in style.css

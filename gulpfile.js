@@ -60,14 +60,14 @@ gulp.task('babel', () => {
 
 gulp.task('make-bundle', function () {
   return gulp.src(['dist/tmp/*'])
-    .pipe(concat('angularValidateWithToast.bundle.min.js'))
+    .pipe(concat('ionicValidateWithToast.bundle.min.js'))
     .pipe(uglify())
     .pipe(gulp.dest('dist/'))
 })
 
 gulp.task('make-bundle-dev', function () {
   return gulp.src(['dist/tmp/*'])
-    .pipe(concat('angularValidateWithToast.bundle.js'))
+    .pipe(concat('ionicValidateWithToast.bundle.js'))
     .pipe(gulp.dest('dist/'))
 })
 

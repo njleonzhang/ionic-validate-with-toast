@@ -2,7 +2,7 @@
  * Created by leon on 15/12/1.
  */
 
-angular.module('angularValidateWithToast', [])
+angular.module('ionicValidateWithToast', [])
 
 .directive('bsyFormValidate', function (ionicToast) {
     return {
