@@ -4,7 +4,7 @@
  * Created by leon on 15/12/1.
  */
 
-angular.module('ionicValidateWithToast').directive('bsyFormValidate', ["ionicToast", function (ionicToast) {
+angular.module('ionicValidateWithToast', []).directive('bsyFormValidate', ["ionicToast", function (ionicToast) {
   return {
     restrict: 'A',
     require: 'ngModel',
